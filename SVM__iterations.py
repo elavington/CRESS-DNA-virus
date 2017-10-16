@@ -3,7 +3,7 @@ This script trains, tests, and outputs performance metrics for a C-Support Vecto
 classification of protein sequences. This algorithm supports multiple classes
 but only one label per sample. That is, if you want to train a classifier on taxonomy, you should
 use only one taxonomic level but you can use many different groups at that level. For example,
-in Lavington, Zhang, and Duffy we used Genus as the taxonmonic level and trained the classifier on
+in Lavington, Zhao, and Duffy we used Genus as the taxonmonic level and trained the classifier on
 14-19 Genera at once.
 
 This script takes in protein coding sequence and a single label for each sequence then:
